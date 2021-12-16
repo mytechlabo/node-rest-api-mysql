@@ -1,17 +1,23 @@
 # REST API node + mysql
 ## Setup
 ### Install package
-    Run `npm install`
+```sh 
+$ npm install
+```
 
 ### Enviroiment
-    Run `cp .env.example .env`
+```sh
+cp .env.example .env
+```
 
 ### Start App
-    Run `npm run start`
+```sh
+npm run start
+```
 
 
 ### Database : Run Sql query
-```
+```sql
 create database todo;
 use todo;
 CREATE TABLE `users` (
