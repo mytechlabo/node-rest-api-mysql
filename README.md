@@ -30,10 +30,18 @@ CREATE TABLE `users` (
     `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP,
     `updated_at` DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO `users` (name, status, email) VALUES ('Einar Randall ', 1, 'aniya.wehner@example.org');
-INSERT INTO `users` (name, status, email) VALUES ('Ebbe Gemariah', 0, '	gottlieb.monserrat@example.com');
-INSERT INTO `users` (name, status, email) VALUES ('Yiorgos Avraamu', 0, 'gottlieb.monserrat1@example.com');
-INSERT INTO `users` (name, status, email) VALUES ('Aulus Agmundr', 1, 'gottlieb.monserrat2@example.com');
+INSERT INTO `users` (name, status, email) VALUES ('Ngô Quyền ', 1, 'quyen.ngo@cryptopie-labo.com');
+INSERT INTO `users` (name, status, email) VALUES ('Đinh Bộ Lĩnh', 1, 'linh.dinh@cryptopie-labo.com');
+INSERT INTO `users` (name, status, email) VALUES ('Lý Thường Kiệt', 1, 'kiet.ly@cryptopie-labo.com');
+INSERT INTO `users` (name, status, email) VALUES ('Trần Hưng Đạo', 1, 'dao.tran@cryptopie-labo.com');
+INSERT INTO `users` (name, status, email) VALUES ('Nguyễn Huệ', 1, 'hue.nguyen@cryptopie-labo.com');
+INSERT INTO `users` (name, status, email) VALUES ('Võ Nguyên Giáp', 1, 'giap.vo@cryptopie-labo.com');
+INSERT INTO `users` (name, status, email) VALUES ('Nguyễn Chí Thanh', 1, 'thanh.nguyen@cryptopie-labo.com');
+INSERT INTO `users` (name, status, email) VALUES ('Lê Trọng Tấn', 1, 'tan.le@cryptopie-labo.com');
 ```
+
+
+### Reference
+- [CRUD Nodejs with MySQL](https://freetuts.net/insert-update-delete-select-mysql-trong-nodejs-2293.html)
